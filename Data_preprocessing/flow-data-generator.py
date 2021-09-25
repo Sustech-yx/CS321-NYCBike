@@ -22,7 +22,6 @@ def get_time_slot(dtime: str) -> int:
     day = int(dtime[8:10])
     hour = int(dtime[11:13])
     return (day - 1) * 24 + hour
-    pass
 
 
 def generate(yyyymm: str):

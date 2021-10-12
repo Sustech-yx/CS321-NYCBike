@@ -18,7 +18,7 @@
 
  ## | 文件层次
   * data_processing 数据处理，生成特征向量的 .py .ipynb 文件
-    * // 若 .py文件运行错误， 可通过 .ipynb文件进行调试
+  * // 若 .py文件运行错误， 可通过 .ipynb文件进行调试
     * grid_level
     * region_level
     * station_level

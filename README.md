@@ -9,11 +9,11 @@
 
 ## | 处理流程
  1. 先进行站点级别的处理
-  * 生成 m_station_data.csv（grid和zone级别处理的数据源)
-  * 生成m_station_NYC.csv(用于数据库存储的station信息)
+   * 生成 m_station_data.csv（grid和zone级别处理的数据源)
+   * 生成m_station_NYC.csv(用于数据库存储的station信息)
  2. 之后进行zone级别的处理 
-  * 更新 m_station_NYC.csv(添加 zone_id 的信息)
-  * 生成 zone_NYC.csv(用于数据库的zone信息)
+   * 更新 m_station_NYC.csv(添加 zone_id 的信息)
+   * 生成 zone_NYC.csv(用于数据库的zone信息)
  3. 最后进行grid级别处理
 
  ## | 文件层次

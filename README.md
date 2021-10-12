@@ -8,9 +8,11 @@
 * 跟指定的边界顶点，划分成用户指定的区域网格，并生成对应的特征向量
 
 ## | 处理流程
- 1. 先进行站点级别的处理生成 m_station_data.csv（grid和zone级别处理的数据源）、 m_station_NYC.csv(用于数据库存储的station信息)
- 2. 之后进行zone级别的处理 更新 m_station_NYC.csv(添加 zone_id 的信息)， 并生成 zone_NYC.csv(用于数据库的zone信息)
- 3. 最后进行grid级别处理
+ 1. 先进行站点级别的处理生成 m_station_data.csv（grid和zone级别处理的数据源）
+    m_station_NYC.csv(用于数据库存储的station信息)
+ 3. 之后进行zone级别的处理 更新 m_station_NYC.csv(添加 zone_id 的信息) 
+    并生成 zone_NYC.csv(用于数据库的zone信息)
+ 5. 最后进行grid级别处理
 
  ## | 文件层次
   * data_processing 数据处理，生成特征向量的 .py .ipynb 文件

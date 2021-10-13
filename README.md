@@ -32,3 +32,5 @@
     * *_station.npy (station 级别特征结果）
     * *_zone.npy    (zone 级别特征结果）
     * *_grid.npy    (grid 级别特征结果）
+  * new_raw 202102 及以后的新表头的原始数据
+  * old_raw 202102 以前的旧表头的原始数据

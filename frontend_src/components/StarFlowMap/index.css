@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 input[type="date"] {
   width: 120px;
   font-size: 10px;
@@ -53,4 +54,61 @@ button {
 } 
 fieldset {
   width: 225px;
+=======
+input[type="date"] {
+  width: 120px;
+  font-size: 10px;
+  font-weight: 600;
+  float: inline-end;
+}
+input[type="time"] {
+  width: 60px;
+  font-size: 7px;
+  font-weight: 600;
+}
+input[type="number"] {
+  width: 55px;
+  font-size: 5px;
+  font-weight: 600;
+}
+select {
+  float: right;
+  width: 105px;
+}
+label {
+  text-align: left;
+  padding-left: 5px;
+  padding-right: 5px;
+  width: 620px;
+  font-size: 8px;
+  font-weight: 700;
+  font-family: "Microsoft soft";
+}
+legend {
+  text-align: left;
+  padding: 2px;
+  font-size: 10px;
+  font-weight: 600;
+  font-family: "Microsoft soft";
+}
+option {
+  padding: 5px;
+  text-align: left;
+  font-family: "Microsoft soft";
+}
+button {
+  width: 200px;
+  height: 25px;
+  font-size: 7px;
+  font-weight: 700;
+  font-family: "Microsoft soft";
+  background: rgb(41, 36, 33);
+  color: white;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-width: 0;
+} 
+fieldset {
+  width: 225px;
+>>>>>>> 1a8d03daa8f554b10e21a354b27cf5da96127b85
 }

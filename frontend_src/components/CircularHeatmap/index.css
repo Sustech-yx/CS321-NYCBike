@@ -1,6 +1,14 @@
+<<<<<<< HEAD
 .circle {
     position:absolute;
     left:15px;
     top:40px;
     z-index:-1;
+=======
+.circle {
+    position:absolute;
+    left:15px;
+    top:40px;
+    z-index:-1;
+>>>>>>> 1a8d03daa8f554b10e21a354b27cf5da96127b85
 }
